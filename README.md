@@ -1,5 +1,5 @@
 
-# 🚀 Nextra CRM
+# 🚀 Catalyx CRM
 
 **A powerful and modern CRM system built with NestJS, GraphQL, WebSocket, and PostgreSQL.**
 
