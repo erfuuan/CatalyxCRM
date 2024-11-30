@@ -33,8 +33,9 @@ import { ConfigModule } from '@nestjs/config'; // Optional if you're using .env
       entities: [User], // Add your entities here
       synchronize: true, // Enable sync for dev (not recommended in prod)
     }),
-  // UsersModule, AuthModule, CustomersModule, LeadsModule, SalesModule, MarketingModule, TasksModule, SupportModule, ReportsModule, ProductsModule, BillingModule, DocumentsModule, GraphqlModule, NotificationsModule],
-  UsersModule],
+    // UsersModule, AuthModule, CustomersModule, LeadsModule, SalesModule, MarketingModule, TasksModule, SupportModule, ReportsModule, ProductsModule, BillingModule, DocumentsModule, GraphqlModule, NotificationsModule],
+    UsersModule,
+  ],
 
   controllers: [AppController],
   providers: [AppService, RedisService],

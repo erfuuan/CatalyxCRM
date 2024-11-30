@@ -7,6 +7,6 @@ import { User } from './entities/user.entity';
   imports: [TypeOrmModule.forFeature([User])], // This exposes the UserRepository to other modules,
   providers: [UsersService],
   controllers: [UsersController],
-  exports: [UsersService]
+  exports: [UsersService],
 })
 export class UsersModule {}
